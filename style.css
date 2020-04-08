@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(107,255,83);
+    background: -moz-linear-gradient(160deg, rgba(107,255,83,1) 0%, rgba(11,121,9,1) 40%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(160deg, rgba(107,255,83,1) 0%, rgba(11,121,9,1) 40%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(160deg, rgba(107,255,83,1) 0%, rgba(11,121,9,1) 40%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bff53",endColorstr="#000000",GradientType=1);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: calc(100vh - 50px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    height: 50px;
+    background-color: gray;
+
+}
+
+.aside-top a {
+    display: block;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.p-top {
+    padding-top: 10px;
+}
+
+.p-bottom {
+    padding-bottom: 20px;
+}
+
+.p-left {
+    padding-left: 20px;
+}
+
+.p-right {
+    padding-right: 20px;
+}
+
+.logo i, .logo p {
+    font-size: 30px;
+    color: white;
+}
+
+.logo p {
+    display: inline-block;
+}
+
+.cerca a, .home a, .libreria a, .installa a, .account a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.stile {
+    font-size: 15px;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.stile i {
+    padding-right: 10px;
+}
+
+.home {
+    border-left: 3px solid lightgreen;
+    padding-left: 15px;
+}
+
+.installa {
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.installa, .account {
+    margin-left: 20px;
+    margin-right: 20px;
+}
