@@ -27,7 +27,7 @@ footer {
 
 }
 
-.aside-top a {
+.block {
     display: block;
 }
 
@@ -88,4 +88,38 @@ footer {
 .installa, .account {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+@media all and (max-width: 767px) {
+    aside {
+        width: 70px;
+    }
+
+    .logo p {
+        display: none;
+    }
+
+    .cerca a:last-child {
+        display: none;
+    }
+
+    .home a:last-child {
+        display: none;
+    }
+
+    .libreria a:last-child {
+        display: none;
+    }
+
+    .account a:last-child {
+        display: none;
+    }
+
+    .installa a:last-child {
+        display: none;
+    }
+
+    .block {
+        display: none;
+    }
 }
