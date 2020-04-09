@@ -21,6 +21,78 @@ aside {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 50px;
+    width: calc(100% - 200px)
+}
+
+.menu {
+    display: none;
+}
+
+.container {
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+
+.sezione1 p {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.sezione2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.contenuto {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+}
+
+.immagine {
+    height: 80%;
+    width: 80%;
+}
+
+.immagine p {
+    text-align: center;
+    color: white;
+}
+
+.immagine img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    overflow-y: auto;
+    float: right;
+    height: calc(100vh - 120px);
+    width: calc(100% - 200px)
+}
+
 footer {
     height: 70px;
     background-color: #212821;
@@ -162,6 +234,26 @@ footer {
 @media all and (max-width: 767px) {
     aside {
         width: 70px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header {
+        width: calc(100% - 70px);
+    }
+
+    main {
+        width: calc(100% - 70px)
+    }
+
+    .menu {
+        color: white;
+        padding-left: 20px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
     }
 
     .logo p {
